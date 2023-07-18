@@ -1,13 +1,18 @@
 
 /* Header styles  */
+nav{
+    margin-top: 80px;
+}
 .nav-section{
     display: flex;
     justify-content: space-around;
-    margin-top: 85px;
+    
 }
 .nav-title{
     width: 243px;
     height: 52.2px;
+    margin-top: -5px;
+    margin-left: -16px;
     color: #3A3A3A;
     font-family: Poppins;
     font-size: 28px;
@@ -18,12 +23,17 @@
     list-style: none; 
 }
 .nav-section, .nav-ul,.nav-li{
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
     height: 34.8px;
     color: #3A3A3A;
     font-family: Poppins;
     font-size: 18px;
     font-weight: 600;
+}
+.nav-section, .nav-ul,.nav-lif{
+    margin-top: 3px;
+    margin-left: 10px;
 }
 /* Header styles  end */
 
@@ -37,6 +47,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.banner-content{
+    margin-top: 100px;
 }
 .banner-title{
     width: 582px;
@@ -80,9 +93,14 @@ main{
 .all-logo{
     display: flex;
     justify-content: center;
-    margin-right: 20px;
-    padding-right: 10px;
+    margin-top: 150px;
+    /* margin-right: 20px;
+    padding-right: 10px; */
     /* padding: 20px; */
+}
+.all-logo, img{
+    margin-right: 20px;
+    padding-left: 20px;
 }
 /* popular section  */
 .popular-head{
@@ -143,6 +161,16 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.feature1{
+    margin-left: 30px;
+}
+.feature2{
+    margin-left: -30px;
+}
+.feature-img{
+    width: 550px;
+    height: 320px;
+}
 .feature-title{
     color: #0A0826;
     font-family: Poppins;
@@ -153,6 +181,8 @@ main{
 .feature-des{
     width: 501px;
     height: 88px;
+    margin-top: -15px;
+    margin-bottom: 0px ;
     color: #6C6C6C;
     font-family: Poppins;
     font-size: 16px;
@@ -160,9 +190,33 @@ main{
 }
 .join{
     display: inline-flex;
+    margin-top: -15px;
     padding: 10px 24px;
     align-items: flex-start;   
     background: #E02C6D;
     border: none;
     color: white;
 }
+ /* Footer section  */
+ .footer{
+    height: 239px;
+    margin-top: 60px;
+    background: #0A0826;
+    color: white;
+    text-align: center;
+ }
+ .footer-content{
+    padding-top: 30px;
+ }
+ .footer-des{
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;   
+ }
+ .footer-des2{
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;   
+ }
